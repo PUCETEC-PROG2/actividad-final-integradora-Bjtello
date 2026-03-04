@@ -6,8 +6,8 @@ Apex Athletics es un sitio web de e-commerce simulado que funciona como una tien
 
 ## 👥 Integrantes
 
-- **Andrés Maldonado** - Rol: Desarrollo HTML/CSS
-- **Bryan Tello** - Rol: Desarrollo JavaScript/Validación
+- **Bryan Tello** - Rol: Desarrollo HTML/CSS
+- **Andrés Maldonado** - Rol: Desarrollo JavaScript/Validación
 
 ## 📋 Temática Elegida
 
@@ -39,10 +39,8 @@ Apex Athletics es un sitio web de e-commerce simulado que funciona como una tien
 
 ### JavaScript Funcional
 
-- Sistema de carrito simulado con localStorage
 - Validación de formularios completa
 - Notificaciones dinámicas
-- Interactividad en la página de productos
 
 ## 📁 Estructura del Proyecto
 
@@ -98,10 +96,7 @@ trabajo-final/
   - Precio
   - Imagen
   - Descripción breve
-  - Botón para agregar al carrito
-- Sistema de carrito simulado con localStorage
-- Notificaciones al agregar productos
-- Filtro opcional por precio
+
 
 ### 4. Página de Contacto (contacto.html)
 
@@ -138,7 +133,6 @@ trabajo-final/
 
 - Validación de formularios sin librerías externas
 - Manipulación del DOM
-- localStorage para carrito simulado
 - Funciones reutilizables
 - Validación de email con regex
 - Mensajes de error/éxito dinámicos
@@ -158,7 +152,6 @@ trabajo-final/
 3. **Explorar el sitio**
    - Navegar por las diferentes secciones usando el menú
    - Probar el formulario de contacto con validación
-   - Agregar productos al carrito desde la página de productos
    - Ver cómo responde el sitio en diferentes tamaños de pantalla
 
 ## 📱 Responsive Design
@@ -191,27 +184,13 @@ Prueba redimensionando la ventana del navegador o usando las herramientas de des
 - Mensaje de éxito al enviar correctamente
 - Limpiar errores cuando el usuario escribe
 
-## 💾 localStorage
-
-El carrito utiliza localStorage para mantener los productos agregados:
-
-- Se puede ver en DevTools → Application → localStorage
-- Los datos persisten incluso después de cerrar la página
-- Incluye nombre, precio, cantidad e ID del producto
-
 ## 🌐 Despliegue en GitHub Pages
 
 El sitio está desplegado en GitHub Pages y es accesible en:
 
-**[Enlace al sitio en GitHub Pages]** _(Será actualizado después de publicar)_
+(https://pucetec-prog2.github.io/actividad-final-integradora-Bjtello/)
 
-### Pasos para desplegar en GitHub Pages:
 
-1. Crear un repositorio en GitHub
-2. Hacer push de los archivos del proyecto
-3. Ir a Settings → Pages
-4. Seleccionar main/master branch como source
-5. El sitio estará disponible en: `https://usuario.github.io/nombre-repositorio`
 
 ## 📊 Rúbrica de Evaluación
 
@@ -234,9 +213,8 @@ A través del desarrollo de este proyecto, se demostró comprensión de:
 2. **CSS Responsive**: Diseño adaptable a diferentes dispositivos
 3. **JavaScript Vanilla**: Manipulación del DOM sin dependencias externas
 4. **Validación de Formularios**: Validación completa del lado del cliente
-5. **localStorage**: Persistencia de datos en el navegador
-6. **Organización del Código**: Estructura clara y mantenible
-7. **Despliegue Web**: Publicación en GitHub Pages
+5. **Organización del Código**: Estructura clara y mantenible
+6. **Despliegue Web**: Publicación en GitHub Pages
 
 ## 🛠️ Herramientas Utilizadas
 
@@ -250,8 +228,6 @@ A través del desarrollo de este proyecto, se demostró comprensión de:
 
 - El proyecto NO utiliza librerías externas (jQuery, Bootstrap, etc.)
 - Todo está desarrollado con HTML5, CSS puro y JavaScript vanilla
-- El carrito es simulado utilizando localStorage
-- Las imágenes son placeholders y deben ser reemplazadas por imágenes reales
 - El código está comentado para facilitar la comprensión
 
 ## 🔗 Enlaces Importantes
