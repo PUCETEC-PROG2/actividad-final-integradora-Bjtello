@@ -1,0 +1,209 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Contacto - Apex Athletics</title>
+    <link rel="stylesheet" href="assets/css/styles.css">
+</head>
+<body>
+    <!-- Encabezado principal -->
+    <header class="header">
+        <div class="header-container">
+            <div class="logo">
+                <h1>🏋️ Apex Athletics</h1>
+                <p>Tu tienda de artículos deportivos</p>
+            </div>
+            <!-- Navegación principal -->
+            <nav class="navbar">
+                <ul class="nav-list">
+                    <li><a href="index.html">Inicio</a></li>
+                    <li><a href="categorias.html">Categorías</a></li>
+                    <li><a href="productos.html">Productos</a></li>
+                    <li><a href="contacto.html" class="active">Contacto</a></li>
+                </ul>
+            </nav>
+        </div>
+    </header>
+
+    <!-- Contenido principal -->
+    <main class="main-content">
+        <!-- Sección de título -->
+        <section class="page-header">
+            <h2>Contáctanos</h2>
+            <p>Estamos aquí para ayudarte con tus preguntas y comentarios</p>
+        </section>
+
+        <!-- Contenedor para el formulario y la información de contacto -->
+        <section class="contact-section">
+            <div class="contact-container">
+                
+                <!-- Formulario de contacto -->
+                <article class="contact-form-wrapper">
+                    <h3>Formulario de Contacto</h3>
+                    <form id="contactForm" name="contactForm" novalidate>
+                        
+                        <!-- Campo Nombre -->
+                        <div class="form-group">
+                            <label for="nombre">Nombre <span class="required">*</span></label>
+                            <input 
+                                type="text" 
+                                id="nombre" 
+                                name="nombre" 
+                                placeholder="Tu nombre completo"
+                                required
+                            >
+                            <span class="error-msg" id="nombreError"></span>
+                        </div>
+
+                        <!-- Campo Ciudad -->
+                        <div class="form-group">
+                            <label for="ciudad">Ciudad <span class="required">*</span></label>
+                            <input 
+                                type="text" 
+                                id="ciudad" 
+                                name="ciudad" 
+                                placeholder="Tu ciudad"
+                                required
+                            >
+                            <span class="error-msg" id="ciudadError"></span>
+                        </div>
+
+                        <!-- Campo Email -->
+                        <div class="form-group">
+                            <label for="email">Email <span class="required">*</span></label>
+                            <input 
+                                type="email" 
+                                id="email" 
+                                name="email" 
+                                placeholder="tu.email@ejemplo.com"
+                                required
+                            >
+                            <span class="error-msg" id="emailError"></span>
+                        </div>
+
+                        <!-- Campo Asunto -->
+                        <div class="form-group">
+                            <label for="asunto">Asunto <span class="required">*</span></label>
+                            <select id="asunto" name="asunto" required>
+                                <option value="">Selecciona un asunto</option>
+                                <option value="consulta-producto">Consulta sobre un producto</option>
+                                <option value="pedido">Consulta sobre mi pedido</option>
+                                <option value="devolucion">Devoluciones y cambios</option>
+                                <option value="general">Consulta general</option>
+                                <option value="sugerencia">Sugerencia o comentario</option>
+                            </select>
+                            <span class="error-msg" id="asuntoError"></span>
+                        </div>
+
+                        <!-- Campo Descripción -->
+                        <div class="form-group">
+                            <label for="descripcion">Descripción <span class="required">*</span></label>
+                            <textarea 
+                                id="descripcion" 
+                                name="descripcion" 
+                                placeholder="Cuéntanos más detalles sobre tu consulta"
+                                rows="6"
+                                required
+                            ></textarea>
+                            <span class="error-msg" id="descripcionError"></span>
+                        </div>
+
+                        <!-- Botones -->
+                        <div class="form-buttons">
+                            <button type="submit" class="btn btn-primary">Enviar Mensaje</button>
+                            <button type="reset" class="btn btn-secondary">Limpiar Formulario</button>
+                        </div>
+
+                        <!-- Mensaje de éxito -->
+                        <div id="successMessage" class="success-msg"></div>
+                    </form>
+                </article>
+
+                <!-- Información de contacto -->
+                <article class="contact-info">
+                    <h3>Información de Contacto</h3>
+                    <div class="info-item">
+                        <h4>📍 Dirección</h4>
+                        <p>Calle Principal 1234<br>Quito, Ecuador</p>
+                    </div>
+                    <div class="info-item">
+                        <h4>📞 Teléfono</h4>
+                        <p>+593 098-728-3265<br>Lunes a Viernes: 9:00 - 18:00</p>
+                    </div>
+                    <div class="info-item">
+                        <h4>📧 Email</h4>
+                        <p>bryantello1998@gmail.com<br>soporte@apexathletics.com</p>
+                    </div>
+                    <div class="info-item">
+                        <h4>⏰ Horario de Atención</h4>
+                        <p>
+                            Lunes a Viernes: 9:00 AM - 6:00 PM<br>
+                            Sábado: 10:00 AM - 4:00 PM<br>
+                            Domingo: Cerrado
+                        </p>
+                    </div>
+                    <div class="info-item">
+                        <h4>🌐 Redes Sociales</h4>
+                        <ul class="social-links">
+                            <li><a href="#">Facebook</a></li>
+                            <li><a href="#">Instagram</a></li>
+                            <li><a href="#">Twitter</a></li>
+                        </ul>
+                    </div>
+                </article>
+            </div>
+        </section>
+
+        <!-- Sección de preguntas frecuentes -->
+        <section class="faq-section">
+            <div class="faq-container">
+                <h2>Preguntas Frecuentes</h2>
+                <article class="faq-item">
+                    <h4>¿Cuál es el tiempo de entrega?</h4>
+                    <p>Nuestros pedidos se entregan en 3 a 5 días hábiles en toda la región.</p>
+                </article>
+                <article class="faq-item">
+                    <h4>¿Puedo devolver un producto?</h4>
+                    <p>Sí, aceptamos devoluciones en un plazo de 30 días desde la compra con el producto en sus condiciones originales.</p>
+                </article>
+                <article class="faq-item">
+                    <h4>¿Aceptan diferentes métodos de pago?</h4>
+                    <p>Aceptamos tarjetas de crédito, débito, transferencias bancarias y efectivo en nuestros locales.</p>
+                </article>
+                <article class="faq-item">
+                    <h4>¿Tienen descuentos para compras en volumen?</h4>
+                    <p>Sí, contáctanos para solicitar cotizaciones especiales para compras al por mayor.</p>
+                </article>
+            </div>
+        </section>
+    </main>
+
+    <!-- Pie de página -->
+    <footer class="footer">
+        <div class="footer-container">
+            <article class="footer-section">
+                <h4>Apex Athletics</h4>
+                <p>Tu tienda de confianza para artículos deportivos de calidad.</p>
+            </article>
+            <article class="footer-section">
+                <h4>Enlaces Rápidos</h4>
+                <ul>
+                    <li><a href="categorias.html">Categorías</a></li>
+                    <li><a href="productos.html">Productos</a></li>
+                    <li><a href="contacto.html">Contacto</a></li>
+                </ul>
+            </article>
+            <article class="footer-section">
+                <h4>Contacto</h4>
+                <p>Email: bryantello1998@gmail.com</p>
+                <p>Teléfono: +593 098-728-3265</p>
+            </article>
+        </div>
+        <div class="footer-bottom">
+            <p>&copy; 2026 Apex Athletics. Todos los derechos reservados.</p>
+        </div>
+    </footer>
+    <script src="assets/js/script.js"></script>
+</body>
+</html>

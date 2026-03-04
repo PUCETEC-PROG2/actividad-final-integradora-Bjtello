@@ -1,0 +1,223 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Productos - Apex Athletics</title>
+    <link rel="stylesheet" href="assets/css/styles.css">
+</head>
+<body>
+    <!-- Encabezado principal -->
+    <header class="header">
+        <div class="header-container">
+            <div class="logo">
+                <h1>🏋️ Apex Athletics</h1>
+                <p>Tu tienda de artículos deportivos</p>
+            </div>
+            <!-- Navegación principal -->
+            <nav class="navbar">
+                <ul class="nav-list">
+                    <li><a href="index.html">Inicio</a></li>
+                    <li><a href="categorias.html">Categorías</a></li>
+                    <li><a href="productos.html" class="active">Productos</a></li>
+                    <li><a href="contacto.html">Contacto</a></li>
+                </ul>
+            </nav>
+        </div>
+    </header>
+
+    <!-- Contenido principal -->
+    <main class="main-content">
+        <!-- Sección de título -->
+        <section class="page-header">
+            <h2>Nuestros Productos</h2>
+            <p>Encuentra los mejores artículos deportivos</p>
+        </section>
+
+        <!-- Sección de filtro y búsqueda -->
+        <section class="filter-section">
+            <div class="filter-container">
+                <label for="price-filter">Filtrar por precio:</label>
+                <select id="price-filter">
+                    <option value="">Todos los precios</option>
+                    <option value="low">Menos de $50</option>
+                    <option value="medium">$50 - $100</option>
+                    <option value="high">Más de $100</option>
+                </select>
+            </div>
+        </section>
+
+        <!-- Sección de productos -->
+        <section class="products-section">
+            <div class="products-container">
+                
+                <!-- Producto 1 -->
+                <article class="product-item">
+                    <div class="product-image">
+                        <img src="assets/img/productos/zapatillas-ultra-fit.webp" alt="Zapatillas de Running Premium">
+                    </div>
+                    <div class="product-details">
+                        <h3>Zapatillas de Running Premium</h3>
+                        <p class="category">Categoría: Calzado</p>
+                        <p class="description">
+                            Zapatillas de running con tecnología de amortiguamiento avanzada.
+                            Perfectas para corredores de todos los niveles.
+                        </p>
+                        <p class="price">$129.99</p>
+                        <button class="btn btn-primary" disabled>Ver Detalles</button>
+                    </div>
+                </article>
+
+                <!-- Producto 2 -->
+                <article class="product-item">
+                    <div class="product-image">
+                        <img src="assets/img/productos/Playera Deportiva Transpirable.webp" alt="Playera Deportiva Transpirable">
+                    </div>
+                    <div class="product-details">
+                        <h3>Playera Deportiva Transpirable</h3>
+                        <p class="category">Categoría: Ropa</p>
+                        <p class="description">
+                            Playera con tecnología de secado rápido. Ideal para entrenamientos
+                            intensos y actividades al aire libre.
+                        </p>
+                        <p class="price">$39.99</p>
+                        <button class="btn btn-primary" disabled>Ver Detalles</button>
+                    </div>
+                </article>
+
+                <!-- Producto 3 -->
+                <article class="product-item">
+                    <div class="product-image">
+                        <img src="assets/img/productos/mochila-pro-sports.avif" alt="Mochila BackPack Pro">
+                    </div>
+                    <div class="product-details">
+                        <h3>Mochila BackPack Pro</h3>
+                        <p class="category">Categoría: Accesorios</p>
+                        <p class="description">
+                            Mochila resistente con compartimentos especializados para equipamiento
+                            deportivo. Material impermeable de alta calidad.
+                        </p>
+                        <p class="price">$79.99</p>
+                        <button class="btn btn-primary" disabled>Ver Detalles</button>
+                    </div>
+                </article>
+
+                <!-- Producto 4 -->
+                <article class="product-item">
+                    <div class="product-image">
+                        <img src="assets/img/productos/Pesas Ajustables Dumbbells.jpg" alt="Pesas Ajustables Dumbbells">
+                    </div>
+                    <div class="product-details">
+                        <h3>Pesas Ajustables Dumbbells</h3>
+                        <p class="category">Categoría: Equipamiento</p>
+                        <p class="description">
+                            Set de pesas ajustables con rango de peso flexible.
+                            Perfectas para entrenamiento en casa o en el gym.
+                        </p>
+                        <p class="price">$149.99</p>
+                        <button class="btn btn-primary" disabled>Ver Detalles</button>
+                    </div>
+                </article>
+
+                <!-- Producto 5 -->
+                <article class="product-item">
+                    <div class="product-image">
+                        <img src="assets/img/productos/botella-termica.jpg" alt="Botella Térmica 750ml">
+                    </div>
+                    <div class="product-details">
+                        <h3>Botella Térmica 750ml</h3>
+                        <p class="category">Categoría: Accesorios</p>
+                        <p class="description">
+                            Botella térmica de doble pared que mantiene bebidas frías hasta 24 horas
+                            o calientes hasta 12 horas. Diseño ergonómico.
+                        </p>
+                        <p class="price">$49.99</p>
+                        <button class="btn btn-primary" disabled>Ver Detalles</button>
+                    </div>
+                </article>
+
+                <!-- Producto 6 -->
+                <article class="product-item">
+                    <div class="product-image">
+                        <img src="assets/img/productos/Banda de Resistencia Set.webp" alt="Banda de Resistencia Set">
+                    </div>
+                    <div class="product-details">
+                        <h3>Banda de Resistencia Set</h3>
+                        <p class="category">Categoría: Equipamiento</p>
+                        <p class="description">
+                            Set de 5 bandas de resistencia con diferentes niveles de tensión.
+                            Perfectas para trabajo de fuerza y flexibilidad.
+                        </p>
+                        <p class="price">$34.99</p>
+                        <button class="btn btn-primary" disabled>Ver Detalles</button>
+                    </div>
+                </article>
+
+                <!-- Producto 7 (Adicional para variedad) -->
+                <article class="product-item">
+                    <div class="product-image">
+                        <img src="assets/img/productos/Reloj Deportivo Inteligente.webp" alt="Reloj Deportivo Inteligente">
+                    </div>
+                    <div class="product-details">
+                        <h3>Reloj Deportivo Inteligente</h3>
+                        <p class="category">Categoría: Accesorios</p>
+                        <p class="description">
+                            Reloj smartwatch con monitor de frecuencia cardíaca, GPS integrado
+                            y resistencia al agua. Perfecto para atletas.
+                        </p>
+                        <p class="price">$199.99</p>
+                        <button class="btn btn-primary" disabled>Ver Detalles</button>
+                    </div>
+                </article>
+
+                <!-- Producto 8 (Adicional para variedad) -->
+                <article class="product-item">
+                    <div class="product-image">
+                        <img src="assets/img/productos/Guantes de Entrenamiento.webp" alt="Guantes de Entrenamiento">
+                    </div>
+                    <div class="product-details">
+                        <h3>Guantes de Entrenamiento</h3>
+                        <p class="category">Categoría: Accesorios</p>
+                        <p class="description">
+                            Guantes ergonómicos con acolchado en palmas. Ideales para CrossFit,
+                            levantamiento de pesas y boxeo.
+                        </p>
+                        <p class="price">$44.99</p>
+                        <button class="btn btn-primary" disabled>Ver Detalles</button>
+                    </div>
+                </article>
+
+
+            </div>
+        </section>
+    </main>
+
+    <!-- Pie de página -->
+    <footer class="footer">
+        <div class="footer-container">
+            <article class="footer-section">
+                <h4>Apex Athletics</h4>
+                <p>Tu tienda de confianza para artículos deportivos de calidad.</p>
+            </article>
+            <article class="footer-section">
+                <h4>Enlaces Rápidos</h4>
+                <ul>
+                    <li><a href="categorias.html">Categorías</a></li>
+                    <li><a href="productos.html">Productos</a></li>
+                    <li><a href="contacto.html">Contacto</a></li>
+                </ul>
+            </article>
+            <article class="footer-section">
+                <h4>Contacto</h4>
+                <p>Email: info@apexathletics.com</p>
+                <p>Teléfono: +593 2 123-4567</p>
+            </article>
+        </div>
+        <div class="footer-bottom">
+            <p>&copy; 2026 Apex Athletics. Todos los derechos reservados.</p>
+        </div>
+    </footer>
+
+    <script src="assets/js/script.js"></script>
+</body>
+</html>
